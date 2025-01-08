@@ -22,8 +22,10 @@ async function init() {
   // user adds a letter to the current guess
   function addLetter(letter) {
     if (currentGuess.length < ANSWER_LENGTH) {
+        // add letter to end
       currentGuess += letter;
     } else {
+        // replace the last letter
       current = currentGuess.substring(0, currentGuess.length - 1) + letter;
     }
 
