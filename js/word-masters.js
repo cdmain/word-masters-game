@@ -113,7 +113,7 @@ async function init() {
     letters[currentRow * ANSWER_LENGTH + currentGuess.length].innerText = "";
   }
 
-  // let the user know that their guess wasn't a real word
+  // let the user know that their guess wasn't a real 5 letter word
   function markInvalidWord() {
     for (let i = 0; i < ANSWER_LENGTH; i++) {
       letters[currentRow * ANSWER_LENGTH + i].classList.remove("invalid");
