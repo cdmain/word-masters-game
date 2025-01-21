@@ -37,7 +37,7 @@ Click here to try the game: [Word Masters Game](https://cdmain.github.io/word-ma
 
 - HTML5
 - CSS3
-- JavaScript (ES6+)
+- JavaScript
 - External API for word validation and daily word.
 
 ## Notes
